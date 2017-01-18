@@ -1,0 +1,58 @@
+.header{
+    text-align: center;
+    font-family: Georgia;
+    font-weight: 400;
+    font-size: 65rpx;
+    line-height: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.divider{
+    padding: 0 20rpx 0;
+    margin: 20rpx 0;
+    line-height: 1px;
+    border-left: 200rpx solid #ddd;
+    border-right: 200rpx solid #ddd;
+    text-align: center;
+    font-size: 30rpx;
+    font-family: Georgia;
+}
+.inputView{
+    margin: 20rpx 0;
+}
+.content{
+    text-align: center;
+    margin: 60rpx 0;
+    font-weight: 400;
+    font-size: 40rpx;
+    clear: bottom;
+}
+.resList{
+    margin:40rpx 30rpx;
+}
+.content-item{
+    float: left;
+}
+.left{
+    height: 60rpx;
+    width: 80%;
+    float: left;
+}
+.right{
+    height: 60rpx;
+    width: 20%;
+}
+#random{
+    position: relative;
+    margin: 30rpx 20rpx;
+}
+.list text{
+    float: left;
+    width: 80%;
+    display: block;
+    text-align: left;
+}
+.list button{
+    width: 20%;
+}
+

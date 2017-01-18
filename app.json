@@ -1,0 +1,18 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/diaryContent/diaryContent",
+    "pages/search/search",
+    "pages/input/input",
+    "pages/eat/eat",
+    "pages/diary/diary"
+
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "MyProject",
+    "navigationBarTextStyle":"white"
+  }
+}

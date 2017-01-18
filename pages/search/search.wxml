@@ -1,0 +1,3 @@
+<view class="wrapper">
+    <canvas canvas-id="Mycanvas" height="150px" width="150px"/>
+</view>

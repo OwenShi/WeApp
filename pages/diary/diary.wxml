@@ -1,0 +1,14 @@
+<view class="wrapper">
+    <view class="header">
+        <view class="title">{{title}}</view>
+    </view>
+    <view class="divider">By_Shiwj</view>
+    <view class="content">
+        <block wx:for="{{diaryThumbnail}}">
+            <view class="diary">
+                <text>{{item}}</text>
+                <button type="default">EDIT</button>
+            </view>
+        </block>
+    </view>
+</view>

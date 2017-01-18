@@ -1,0 +1,28 @@
+<view class="wrapper">
+    <view class="header">
+        <view class="title">{{title}}</view>
+        <view class="carousel"></view>
+    </view>
+    <view class="divider">By_Shiwj</view>
+    <view class="content">
+        <view class="inputView">
+            <input auto-focus placeholder="请输入餐厅名称" value="{{restaurantsName}}" bindinput="addtorestaurantsName"/>
+        </view>
+<!--         <view>{{restaurantsName}}</view> -->
+        <button type="primary" size="mini" bindtap="addRestaurants">添加</button>
+        <view class="resList">
+
+            <view wx:for="{{restaurants}}" class="list">
+                <!-- <view class="left"> -->
+                    <text class="restaurant-item" class="content-item">{{item}}</text>
+                <!-- </view> -->
+                <!-- <view class="right"> -->
+                    <button class="delete" class="deleteButton" type="warn" size="mini" data-index="{{index}}" bindtap="deleteOne">DELETE</button>
+                <!-- </view> -->
+            </view>
+        </view>
+    </view>
+    <view id="random">
+        <button type="primary" bindtap="random">吃什么听我的</button>
+    </view>
+</view>

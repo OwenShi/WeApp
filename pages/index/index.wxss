@@ -1,0 +1,79 @@
+/**index.wxss**/
+.wrapper{
+  background-color: #c2ccd0;
+}
+
+.header {
+  background-color: #3D3B4F;
+}
+
+.title {
+  text-align: center;
+  height: 350px;
+
+}
+
+#title {
+  color: #ffffff;
+  font-family: Georgia;
+  font-size: 40px;
+  line-height: 300px;
+}
+
+.row_1{
+  background-color: #9c5333;
+  font-family: Georgia;
+  font-size: 20px;
+  height: 100px;
+  text-align: center;
+}
+
+.row_2{
+  background-color: #177cb0;
+  font-family: Georgia;
+  font-size: 20px;
+  height: 100px;
+  text-align: center;
+}
+
+.row_3{
+  background-color: #2edfa3;
+  font-family: Georgia;
+  font-size: 20px;
+  height: 100px;
+  text-align: center;
+}
+
+.row_4{
+  background-color: #be003f;
+  font-family: Georgia;
+  font-size: 20px;
+  height: 100px;
+  text-align: center;
+}
+
+.row_5{
+  background-color: #801bae;
+  font-family: Georgia;
+  font-size: 20px;
+  height: 100px;
+  text-align: center;
+}
+.diaryContent{
+  color: #ffffff;
+  font-family: Georgia;
+  font-size: 20px;
+  line-height: 100px;
+}
+.dairyIcon{
+  line-height: 100px;
+}
+.icon{
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 15px;
+    float: right;
+}
+.nav{
+  height: 40px;
+}

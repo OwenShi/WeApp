@@ -1,0 +1,14 @@
+<!--index.wxml-->
+<view class="wrapper">
+<!-- 标题栏 -->
+    <view class="header">
+        <view  bindtap="showtable" class="title">
+            <text>{{title}}</text>
+        </view>
+    </view>
+    <view class="content">
+        <block wx:for="{{text}}">
+            <text class="text">{{item}}</text>
+        </block>
+    </view>
+</view>

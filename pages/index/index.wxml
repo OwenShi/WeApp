@@ -1,0 +1,22 @@
+<!--index.wxml-->
+<view class="wrapper">
+<!-- 标题栏 -->
+    <view class="header">
+        <view class="nav">
+            <icon class="icon" bindtap="search" type="search" size="30" color="gray"/>
+            <icon class="icon" bindtap="showtips" type="success_no_circle" size="30" color="gray"/>
+            <icon class="icon" bindtap="testInput" type="waiting_circle" size="30" color="gray"/>
+        </view>
+        <view class="title">
+            <text id="title">MyProject</text>
+        </view>
+    </view>
+    <!-- 内容栏 -->
+    <view class="diaryBody">
+        <block wx:for="{{project}}" wx:for-item="content">
+            <view class="row_{{index+1}}" bindtap="project{{index+1}}" id="{{content}}">
+                <text class="diaryContent">{{content}}</text>
+            </view>
+        </block>
+    </view>
+</view>
