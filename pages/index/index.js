@@ -6,7 +6,7 @@ Page({
     motto: 'Hello World',
     userInfo: {},
     txt: 'xxx',
-    project:['WHAT TO EAT','TODAY','DOU YOU MEAN','I AM','A BEAR'],
+    project:['WHAT TO EAT','TODAY','WHAT TO SAY','I AM','A BEAR'],
     index:[1,2,3,4,5],
   },
   //事件处理函数
