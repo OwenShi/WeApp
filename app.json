@@ -6,7 +6,8 @@
     "pages/search/search",
     "pages/input/input",
     "pages/eat/eat",
-    "pages/diary/diary"
+    "pages/diary/diary",
+    "pages/diaryinput/diaryinput"
 
   ],
   "window":{

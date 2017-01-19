@@ -17,3 +17,24 @@
     font-size: 30rpx;
     font-family: Georgia;
 }
+.diaryText{
+    width: 95%;
+    margin: 100rpx auto;
+}
+.diary{
+    margin: 20rpx 0;
+}
+.diary text{
+    width: 80%;
+    float: left;
+    text-align: left;
+    height: 60rpx;
+    line-height: 60rpx;
+}
+.diary button{
+    width: 20%;
+    height: 60rpx;
+}
+.contentAdd{
+    margin: 0 20rpx;
+}

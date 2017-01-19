@@ -104,7 +104,7 @@ Page({
                       duration: 2000
                     })
                 }else{
-                    random();
+                    that.random();
                 }
             }
         })
