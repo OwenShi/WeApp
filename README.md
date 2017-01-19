@@ -1,2 +1,2 @@
 # WeApp
-something interesting in WeApp
+# 练手的微信小程序，目前只完成了第一个标签的功能。随缘更新，欢迎讨论~
