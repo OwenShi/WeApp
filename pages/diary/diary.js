@@ -7,7 +7,11 @@ Page({
         diaryList:[],
         diaryThumbnailList:[],
         diaryThumbnail:"",
-        diaryText:""
+        diaryText:"",
+        time:"12:01",
+        timeList:[],
+        date:"2017-01-01",
+        dateList:[]
     },
     onLoad: function(){
         var that = this;
@@ -112,5 +116,17 @@ Page({
         var that = this;
         wx.clearStorage();
         that.onLoad();
+    },
+    bindTimeChange:function(e){
+        var that = this;
+        that.setData({
+            time: e.detail.value.time
+        })
+    },
+    bindDateChange:function(e){
+        var that = this;
+        that.setData({
+            date: e.detail.value.date
+        })
     }
 })

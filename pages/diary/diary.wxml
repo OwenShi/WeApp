@@ -17,6 +17,8 @@
     </view>
     <view wx:if="{{!add}}" class="content">
         <form bindsubmit="diarysubmit">
+        <picker mode="time" value="{{time}}" name="time" start="0:00" end="23:59" bindchange="bindTimeChange"> 当前选择: {{time}}</picker>
+        <picker mode="date" value="{{date}}" name="date" start="2017-01-01" end="2050-12-31" bindchange="bindDateChange"> 当前选择: {{date}}</picker>
             <textarea class="diaryText" name="diaryText" value="{{diaryText}}"></textarea>
             <button plain="true" formType="submit">写完啦</button>
         </form>
